@@ -28,6 +28,7 @@ public class Game {
 			for (int i = 0; i < players.length; i++) {
 				System.out.println();
 				System.out.println(players[i]);
+				System.out.println();
 				System.out.print(String.format("Player %d, choose a space to place %d: ", i + 1, rolled));
 
 				while (true) {
