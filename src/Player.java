@@ -39,7 +39,7 @@ public class Player {
 				while (k < rowCnt && grid[j][i] == grid[k][i])
 					k++;
 				if (k - j > 1) {
-					score += (k - j) * grid[i][j];
+					score += (k - j) * grid[j][i];
 				}
 			}
 		}
